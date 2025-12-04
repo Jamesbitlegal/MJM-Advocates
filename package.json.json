@@ -5,13 +5,10 @@
   "type": "module",
   "homepage": "https://Jamesbitlegal.github.io/MJM-Advocates",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
+    "build": "npx vite build", // Fixes the 'vite is not recognized' error
+    "predeploy": "npm run build",     
     "deploy": "npx gh-pages -d dist"
-  },
+},
   "dependencies": {
     "lucide-react": "^0.300.0",
     "react": "^18.2.0",
