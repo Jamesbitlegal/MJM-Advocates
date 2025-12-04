@@ -5,10 +5,13 @@
   "type": "module",
   "homepage": "https://Jamesbitlegal.github.io/MJM-Advocates",
   "scripts": {
+    "dev": "vite",
     "build": "npx vite build",
-    "predeploy": "npm run build",     
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "npx gh-pages -d dist"
-},
+  },
   "dependencies": {
     "lucide-react": "^0.300.0",
     "react": "^18.2.0",
